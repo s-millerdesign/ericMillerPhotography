@@ -24,6 +24,11 @@ prose:
         field:
           element: "text"
           value: "blog"
+      - name: "published"
+        field:
+          element: "checkbox"
+          value: "true"
+          label: "Publish now?"
       - name: "layout"
         field:
           element: "hidden"
