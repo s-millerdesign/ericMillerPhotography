@@ -1,0 +1,214 @@
+/*css layout*/
+
+
+body {
+	background-image: url(../images/pinstripeEM.png)
+	}
+	
+.header {
+	width:960px;
+	float:left;
+	background-color: #000;
+	opacity: 0.5;
+	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.photoPosts.grid-three-fourths {
+	background-color:blue;
+}
+
+
+#mainWrap {
+	width:960px;
+	margin: 0px auto;
+	background-color:#fff;
+	}
+	
+.sidebar{
+	margin-top:0px;
+	float:left;
+	background-color:aqua;
+	}
+	
+h1.logoSmall {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	color:#ff0000;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: .1em;
+	padding-top:40px;
+	margin-left:0px;
+	}
+	
+h1.logoLarge {
+	font-family: 'Josefin Sans', Helvetica, sans-serif;
+	color:#7b838f;
+	font-size: 45px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	padding-top: 12px;
+	}
+	
+h2 {
+	font-family: 'Josefin Sans', Helvetica, sans-serif;
+	color:#7b838f;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: .05em;
+}
+	
+p {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	color:#262626;
+	font-size: 15px;
+	font-weight: 400;
+	letter-spacing: .04em;
+	line-height:30px;
+}
+
+h3 {
+	font-family: 'Josefin Sans', Helvetica, sans-serif;
+	color:#262626;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	margin-left:40px;
+	margin-right: 40px;
+}
+
+
+
+#logoHome a{
+	text-decoration:none;
+	color:#7b838f;
+}
+
+#logoHome a:hover {
+	color:#262626;
+}
+	
+.clear{
+	display: block;
+	clear:both;
+}
+
+.content {
+	/*margin-right:50px;
+	margin-top:50px;*/
+	float:right;
+	padding-bottom:50px;
+	background-color:aqua;
+	}
+	
+/* ======================galleries==========================*/
+	
+#galleryContent {
+	width:670px;
+	margin-right:35px;
+	margin-top:50px;
+	float:right;
+	padding-bottom:18px;
+	}
+
+#galleryContent img {
+	margin:0px 7px 7px 0px;
+}
+
+#galleryDescription {
+	width:670px;
+	margin-right:35px;
+	float:right;
+	padding-bottom:50px;
+}
+
+
+/* ======================about==========================*/
+#aboutContent {
+	width:655px;
+	margin:50px 50px 50px 0px;
+	float:right;
+	background-color:#c3cddb;
+	}
+
+#aboutContent p{
+	font-family: 'Josefin Sans', Helvetica, sans-serif;
+	color:#262626;
+	font-size: 22px;
+	font-weight: 400;
+	letter-spacing: .04em;
+	line-height:50px;
+	margin:85px 50px;
+}
+
+
+/* ======================resume==========================*/
+#resumeContent {
+	width:655px;
+	margin-right:50px;
+	margin-top:50px;
+	float:right;
+	padding-top: 40px;
+	padding-bottom:30px;
+	margin-bottom:50px;
+	background-color:#c3cddb;
+	}
+
+	
+/* ======================menu==========================*/
+
+nav.sectionOne {
+	padding: 0px 70px 0px 0px;
+}
+
+nav.sectionTwo {
+	border-top:1px solid #7b838f;
+	margin-right:70px;
+	padding-top:30px;
+}
+
+nav li{
+	display:block;
+}
+	
+nav li a {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	text-decoration: none;
+	text-align: left;
+	color: #7b838f;
+	line-height:36px;
+}
+
+nav li a:hover {
+	color:#262626;
+}
+
+/*nav li a:active {
+	color:orange;
+}
+
+nav li a:visited {
+	color:#b8c2d0;
+}*/
+
+	
+/* ======================footer==========================*/
+	
+.footer	{
+	padding-bottom:50px;
+	padding:10px 0px 25px 0px;
+	border-top:1px solid #7b838f;
+	background-color:fuchsia;
+	}
+	
+.footer p {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	color: #7b838f;
+}
