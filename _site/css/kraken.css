@@ -170,10 +170,10 @@ a:active {
 /*  Mobile-first. Single-column layout by default
  *  Container sets the maximum page width. Adjust as needed. */
 .container {
-	max-width: 960px;
+	/*max-width: 960px;
 	/*background-color:orange;*/
-  /*max-width: 80em;
-  width: 88%;*/
+max-width: 80em;
+  width: 88%;
   margin-left: auto;
   margin-right: auto;
 }
