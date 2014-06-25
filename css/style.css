@@ -12,6 +12,17 @@ body {
 	clear:both;
 }
 
+h1.logoSmall {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	color:#ff0000;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: .1em;
+	padding-top:86px;
+	margin-left:4%;
+	}
+
+
 .photoPosts.grid-three-fourths {
 	background-color:blue;
 }
@@ -29,15 +40,6 @@ body {
 	background-color:aqua;
 	}
 	
-h1.logoSmall {
-	font-family: 'Roboto Condensed', Helvetica, sans-serif;
-	color:#ff0000;
-	font-size: 18px;
-	font-weight: 400;
-	letter-spacing: .1em;
-	padding-top:40px;
-	margin-left:0px;
-	}
 	
 h1.logoLarge {
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
