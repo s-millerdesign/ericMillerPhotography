@@ -32,7 +32,7 @@ h1.logoSmall {
 .main {
 	margin-top: -64px;
 	background-color:#fff;
-	margin-right:6%;
+	margin-right:12%;
 }
 
 #mainWrap {
@@ -101,7 +101,6 @@ h3 {
 }
 
 .homeContent {
-	margin-right:50px;
 	padding-bottom:50px;
 	margin-bottom:50px;
 	}
@@ -134,34 +133,36 @@ h3 {
 
 
 /* ======================about==========================*/
-#aboutContent {
-	width:655px;
-	margin:50px 50px 50px 0px;
+.aboutContent {
+	width: 70%;
+	margin-top: -64px;
+	margin-bottom:120px;
+	margin-right:5%;
 	float:right;
 	background-color:#c3cddb;
 	}
 
-#aboutContent p{
+.aboutContent p{
 	font-family: 'Josefin Sans', Helvetica, sans-serif;
 	color:#262626;
 	font-size: 22px;
 	font-weight: 400;
 	letter-spacing: .04em;
 	line-height:50px;
-	margin:85px 50px;
+	padding:120px 16%;
 }
 
 
 /* ======================resume==========================*/
-#resumeContent {
-	width:655px;
-	margin-right:50px;
-	margin-top:50px;
-	float:right;
-	padding-top: 40px;
-	padding-bottom:30px;
-	margin-bottom:50px;
+.resumeContent {
+	width: 70%;
 	background-color:#c3cddb;
+	float:right;
+	margin-top: -64px;
+	margin-right:5%;
+	margin-bottom:50px;
+	padding-top: 28px;
+	padding-bottom:30px;
 	}
 
 	
