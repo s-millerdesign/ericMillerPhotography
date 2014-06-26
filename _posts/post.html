@@ -1,13 +1,10 @@
 ---
 layout: default
-title: Creations
+title: Gallery
 ---
-
-<h1>This is the Creations page</h1>
 
 		{% for post in site.posts %} <!--referencing posts in site: for every post in this folder do the following for every one  -->
 		
-		{% if post.tag == "creations" %}
 		
 		<h3>
 		<a href="{{ site.baseurl}}{{ post.url }}">
@@ -15,7 +12,5 @@ title: Creations
 		</a></h3>
 		
 		<p>{{post.content}}</p>
-				
-		{% endif %}
 		
 		{% endfor %}
