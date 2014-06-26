@@ -6,20 +6,18 @@ body {
 	}
 	
 .header {
-	float:left;
-	background-color: #000;
-	opacity: 0.5;
-	clear:both;
+	background-image: url(../images/trans30k.png)
 }
 
 h1.logoSmall {
 	font-family: 'Roboto Condensed', Helvetica, sans-serif;
-	color:#ff0000;
+	/*color:#ff0000;*/
+	color:#ea0e0e;
 	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: .1em;
 	padding-top:86px;
-	margin-left:4%;
+	margin-left:3%;
 	}
 
 
@@ -27,6 +25,15 @@ h1.logoSmall {
 	background-color:blue;
 }
 
+.mainContent {
+	background-color:#fff;
+}
+
+.main {
+	margin-top: -64px;
+	background-color:#fff;
+	margin-right:6%;
+}
 
 #mainWrap {
 	width:960px;
@@ -37,7 +44,6 @@ h1.logoSmall {
 .sidebar{
 	margin-top:0px;
 	float:left;
-	background-color:aqua;
 	}
 	
 	
@@ -48,6 +54,7 @@ h1.logoLarge {
 	font-weight: 400;
 	letter-spacing: .05em;
 	padding-top: 12px;
+	margin-left:12%;
 	}
 	
 h2 {
@@ -93,13 +100,16 @@ h3 {
 	clear:both;
 }
 
-.content {
-	/*margin-right:50px;
-	margin-top:50px;*/
-	float:right;
+.homeContent {
+	margin-right:50px;
 	padding-bottom:50px;
-	background-color:aqua;
+	margin-bottom:50px;
 	}
+
+.homeContent img{
+	margin-top:-64px;
+}
+
 	
 /* ======================galleries==========================*/
 	
@@ -158,7 +168,6 @@ h3 {
 /* ======================menu==========================*/
 
 nav.sectionOne {
-	padding: 0px 70px 0px 0px;
 }
 
 nav.sectionTwo {
@@ -166,6 +175,20 @@ nav.sectionTwo {
 	margin-right:70px;
 	padding-top:30px;
 }
+
+/*h1.contact {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	text-align: left;
+	color: #7b838f;
+	margin-right:70px;
+	margin-left:12%;
+	margin-top:0px;
+	padding-top:0px;
+	line-height: 0px;
+}*/
 
 nav li{
 	display:block;
@@ -184,6 +207,7 @@ nav li a {
 
 nav li a:hover {
 	color:#262626;
+	text-decoration:none;
 }
 
 /*nav li a:active {
@@ -196,12 +220,21 @@ nav li a:visited {
 
 	
 /* ======================footer==========================*/
-	
+
+.row.grid-full {
+	background-color:#fff;
+	width:100%;
+	margin:0px;
+	padding:0px;
+}	
+
+.row.bottom {
+	background-color:#fff;
+}
+
 .footer	{
-	padding-bottom:50px;
-	padding:10px 0px 25px 0px;
+	padding:10px 0px 75px 0px;
 	border-top:1px solid #7b838f;
-	background-color:fuchsia;
 	}
 	
 .footer p {
