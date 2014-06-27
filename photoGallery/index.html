@@ -6,18 +6,17 @@ title: Gallery
 
        <div class="galleryContent">
        
-       <h3>This is the Gallery page</h3>
 
 
 		{% for post in site.posts %} <!--referencing posts in site: for every post in this folder do the following for every one  -->
 		
-		
+		<div class="grid-img">
+		<p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.content }}</a></p>
+		</div>
 		<h3>
 		<a href="{{ site.baseurl}}{{ post.url }}">
 		{{post.title}}
 		</a></h3>
-		
-		<p>{{post.content}}</p>
 		
 		{% endfor %}
 
