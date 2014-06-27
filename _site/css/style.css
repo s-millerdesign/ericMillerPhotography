@@ -19,6 +19,14 @@ h1.logoSmall {
 	padding-top:86px;
 	margin-left:3%;
 	}
+	
+h1.gallery {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: .05em;
+	color: #7b838f;
+}
 
 
 .photoPosts.grid-three-fourths {
@@ -118,7 +126,6 @@ h3 {
 	margin-top: -64px;
 	float:right;
 	margin-bottom:50px;
-	background-color:#c3cddb;
 	}
 
 .galleryContent img {
