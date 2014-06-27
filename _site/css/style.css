@@ -20,7 +20,7 @@ h1.logoSmall {
 	margin-left:3%;
 	}
 	
-h1.gallery {
+.gallery h1 {
 	font-family: 'Roboto Condensed', Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
