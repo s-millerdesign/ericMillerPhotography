@@ -124,7 +124,7 @@ h3 {
 	width:70%;
 	margin-right:5%;
 	margin-top: -64px;
-	float:right;
+	float:left;
 	margin-bottom:50px;
 	}
 
@@ -135,7 +135,7 @@ h3 {
 .galleryDescription {
 	width:670px;
 	margin-right:35px;
-	float:right;
+	float:left;
 	padding-bottom:50px;
 }
 
@@ -146,7 +146,7 @@ h3 {
 	margin-top: -64px;
 	margin-bottom:120px;
 	margin-right:5%;
-	float:right;
+	float: left;
 	background-color:#c3cddb;
 	}
 
@@ -165,7 +165,7 @@ h3 {
 .resumeContent {
 	width: 70%;
 	background-color:#c3cddb;
-	float:right;
+	float:left;
 	margin-top: -64px;
 	margin-right:5%;
 	margin-bottom:50px;
